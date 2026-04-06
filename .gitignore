@@ -1,0 +1,13 @@
+*.FCStd1
+*.FCBak
+*.gcode
+*.zip
+*.sal
+datasheets/
+zmk/repo*
+fp-info-cache
+references/
+zmk/*
+zmk-old/*
+~*
+results/*

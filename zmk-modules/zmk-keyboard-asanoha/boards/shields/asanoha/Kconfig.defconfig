@@ -1,0 +1,27 @@
+if SHIELD_ASANOHA_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Asanoha"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+
+
+if SHIELD_ASANOHA_LEFT || SHIELD_ASANOHA_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+config I2C
+    default y
+
+config GPIO_MCP230XX
+    default y
+
+#config BOARD_ENABLE_DCDC_HV
+#    default n
+
+endif

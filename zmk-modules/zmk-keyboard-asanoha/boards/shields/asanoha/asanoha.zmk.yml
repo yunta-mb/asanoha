@@ -1,0 +1,12 @@
+file_format: "1"
+id: asanoha
+name: Asanoha
+type: shield
+url: https://gitlab.com/yunta/asanoha
+requires: [seeed_xiao]
+features:
+  - keys
+  - studio
+siblings:
+  - asanoha_left
+  - asanoha_right

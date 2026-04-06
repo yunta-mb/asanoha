@@ -1,0 +1,5 @@
+config SHIELD_ASANOHA_LEFT
+    def_bool $(shields_list_contains,asanoha_left)
+
+config SHIELD_ASANOHA_RIGHT
+    def_bool $(shields_list_contains,asanoha_right)
